@@ -55,6 +55,16 @@ async def meme(ctx):
             embed.set_image(url=res['data']['children'] [random.randint(0, 10)]['data']['url'])
             await ctx.send(embed=embed, content=None)
 
+@client.command(aliases=['animemes'])
+async def animeme(ctx):
+    embed = discord.Embed(title="Meme", description=None, color= discord.Colour.blue())
+
+    async with aiohttp.ClientSession() as cs:
+        async with cs.get('https://www.reddit.com/r/Animemes//new.json?sort=hot') as r:
+            res = await r.json()
+            embed.set_image(url=res['data']['children'] [random.randint(0, 10)]['data']['url'])
+            await ctx.send(embed=embed, content=None)
+
 @client.command()
 async def calc(ctx,*,ques):
     res = wolf.query(ques) 
