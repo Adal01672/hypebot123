@@ -60,8 +60,8 @@ async def animeme(ctx):
     embed = discord.Embed(title="Meme", description=None, color= discord.Colour.blue())
 
     async with aiohttp.ClientSession() as cs:
-        async with cs.get('https://www.reddit.com/r/Animemes//new.json?sort=hot') as r:
-            res = await r.json()
+        async with cs.get('https://www.reddit.com/r/Animemes//new.json?sort=hot') as w:
+            res = await w.json()
             embed.set_image(url=res['data']['children'] [random.randint(0, 10)]['data']['url'])
             await ctx.send(embed=embed, content=None)
 
