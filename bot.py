@@ -11,11 +11,10 @@ import random
 import asyncio
 import datetime
 import os
-import json
 import wikipedia
 import aiohttp
 import time
-import youtube_dl
+
 
 search = ("AIzaSyCPgBJXR3moe7iHV6CJLLFZdrPmD8I8AdM")	
 app_id = '4RPXT4-4VYAXX3Q6G'
@@ -35,6 +34,7 @@ reddit = praw.Reddit(client_id = "2UWi15bh86-cnw",
 
 
 filtered_words = ["fuck","FUCK","Fuck","shit","SHIT","Shit","stfu","STFU","Stfu","fuck you","FUCK YOU","swear","SWEAR","Swear","porn","PORN","Porn","hentai","HENTAI","Hentai","nude","NUDE","Nude","sex","SEX","Sex","pussy","PUSSY","Pussy","dick","DICK","Dick","ASS","ass","Ass","boobs","BOOBS","Boobs","bitch","BITCH","Bitch","sh!t","p0rn","s3x"," fak","dic"]
+
 @client.event
 async def on_message(msg):
     for word in filtered_words:
