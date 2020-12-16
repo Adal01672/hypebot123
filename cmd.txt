@@ -1,0 +1,43 @@
+**hype bot commands**
+                                            **prefix= "."**
+1. "hello": replies with "hi"
+
+2. "sup"  : replies with ":robot:i am doing some work in your server,thanks for asking btw"
+
+3. "rule(1-10)" : command like this  ".rule <number>"
+
+4. "cmd"       : shows this message
+
+..........................................................................................
+
+**mod cmds**
+
+1.kick: kicks an member from the server
+
+2.ban:  bans an member from the server
+
+3.unban: unbans an member
+
+4.clear:clears msg from server(.clear2 or 3 or 4 or more like this)
+
+5.mute: mutes an member from the entire server.
+
+6.unmute:unmutes an member from the entire server.
+
+............................................................................................
+
+**fun cmds**
+
+
+1.meme:finds memes from reddit for you
+
+...........................................................................................
+
+**search cmds** 
+
+
+1.yo or youtube: for searching on youtube and finding result.
+
+2.findwolf: is for basically searching in wolframalpha and finding result 
+
+3.invite: sends an invite link for the bot to join ur server 

@@ -1,0 +1,10 @@
+ :one: **Discord TOS and Guidelines: Make sure to follow Discord Terms of service and guidelines. Any violation will result in a ban. ** ** https://discordapp.com/terms** ** https://discordapp.com/guidelines**
+:two:**No Racism**: Any form of Racism or Racial slurs are prohibited and will result in a permanent ban.
+:three:  **Stay on topic**: Use the correct channels and if you don't know what channel is correct then ask another member.
+:four:  **Maintain Peace**: No arguing on the server! Put aside your differences. Failure to do this will result in a mute, if continued then ban. 
+:five:** No NSFW or Gore**: NSFW material will not be tolerated and will result in a ban.
+:six::**Do not Spam** : Don't spam! This includes but is not limited to flooding chat with text or pictures, and mentioning people repeatedly. You will be muted  or  banned.
+ :seven:**Respect Everyone**: Be respectful to all members. 
+:eight:**Do not DM Advertise **: No Dm advertising of anything unless you have consent by the person you are sending the advertisement to
+:nine:**No begging**: We won't build your bot for you - if a solution is easily found on Google, don't expect any help from us.
+:keycap_ten: ** Do not misuse spoilers** : You aren't allowed to misuse spoilers by making it look as if you're saying something inappropriate. One example of this is 'nugget'. Using spoilers around a word that may look like the N word will result in a ban, same goes with any way you bypass the filter.
