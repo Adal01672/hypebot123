@@ -11,11 +11,10 @@ import random
 import asyncio
 import datetime
 import os
-import json
 import wikipedia
 import aiohttp
 import time
-import youtube_dl
+
 
 search = ("AIzaSyCPgBJXR3moe7iHV6CJLLFZdrPmD8I8AdM")	
 app_id = '4RPXT4-4VYAXX3Q6G'
